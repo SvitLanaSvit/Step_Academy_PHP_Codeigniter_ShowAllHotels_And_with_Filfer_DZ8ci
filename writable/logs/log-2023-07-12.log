@@ -1,0 +1,844 @@
+CRITICAL - 2023-07-12 15:16:02 --> Undefined variable $hotels
+in APPPATH\Views\hotels.php on line 12.
+ 1 APPPATH\Views\hotels.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\DZ8ci\\app\\Views\\hotels.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(17): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+CRITICAL - 2023-07-12 15:22:25 --> Undefined variable $imagePath
+in APPPATH\Views\hotels.php on line 15.
+ 1 APPPATH\Views\hotels.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\DZ8ci\\app\\Views\\hotels.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(17): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+CRITICAL - 2023-07-12 15:25:18 --> Undefined variable $imagePath
+in APPPATH\Views\hotels.php on line 15.
+ 1 APPPATH\Views\hotels.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\DZ8ci\\app\\Views\\hotels.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(17): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+CRITICAL - 2023-07-12 15:25:20 --> Undefined variable $imagePath
+in APPPATH\Views\hotels.php on line 15.
+ 1 APPPATH\Views\hotels.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\DZ8ci\\app\\Views\\hotels.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(17): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 15:53:06 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 15:53:06 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 15:57:03 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 15:57:03 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 15:58:59 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 15:58:59 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 15:59:02 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 15:59:02 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 15:59:20 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 15:59:20 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 15:59:46 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 15:59:46 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 15:59:48 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 15:59:48 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:00:13 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:00:13 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:00:15 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:00:15 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:00:16 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:00:16 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:00:16 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:00:16 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:00:17 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:00:17 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:00:17 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:00:17 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:00:17 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:00:17 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:00:17 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:00:17 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:00:17 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:00:17 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:00:18 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:00:18 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:02:07 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:02:07 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:03:13 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:03:13 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:03:21 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:03:21 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:05:42 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:05:42 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:06:29 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:06:29 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:06:30 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:06:30 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:06:31 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:06:31 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:07:06 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:07:06 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:07:07 --> mysqli_sql_exception: Unknown column 'im.ImagePath' in 'field list' in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#5 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#6 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#9 {main}
+CRITICAL - 2023-07-12 16:07:07 --> Unknown column 'im.ImagePath' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Controllers\Home.php(15): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:09:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1 in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Views\hotels.php(18): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\View\View.php(224): include('C:\\OSPanel\\doma...')
+#5 C:\OSPanel\domains\DZ8ci\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\OSPanel\domains\DZ8ci\system\Common.php(1180): CodeIgniter\View\View->render()
+#7 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(17): view()
+#8 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#9 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#13 {main}
+CRITICAL - 2023-07-12 16:09:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Views\hotels.php(18): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\DZ8ci\\app\\Views\\hotels.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 8 APPPATH\Controllers\Home.php(17): view()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:11:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1 in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Views\hotels.php(18): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\View\View.php(224): include('C:\\OSPanel\\doma...')
+#5 C:\OSPanel\domains\DZ8ci\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\OSPanel\domains\DZ8ci\system\Common.php(1180): CodeIgniter\View\View->render()
+#7 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(17): view()
+#8 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#9 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#13 {main}
+CRITICAL - 2023-07-12 16:11:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Views\hotels.php(18): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\DZ8ci\\app\\Views\\hotels.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 8 APPPATH\Controllers\Home.php(17): view()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:15:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1 in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Views\hotels.php(18): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\View\View.php(224): include('C:\\OSPanel\\doma...')
+#5 C:\OSPanel\domains\DZ8ci\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\OSPanel\domains\DZ8ci\system\Common.php(1180): CodeIgniter\View\View->render()
+#7 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(17): view()
+#8 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#9 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#13 {main}
+CRITICAL - 2023-07-12 16:15:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Views\hotels.php(18): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\DZ8ci\\app\\Views\\hotels.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 8 APPPATH\Controllers\Home.php(17): view()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:16:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1 in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Views\hotels.php(18): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\View\View.php(224): include('C:\\OSPanel\\doma...')
+#5 C:\OSPanel\domains\DZ8ci\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\OSPanel\domains\DZ8ci\system\Common.php(1180): CodeIgniter\View\View->render()
+#7 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(17): view()
+#8 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#9 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#13 {main}
+CRITICAL - 2023-07-12 16:16:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Views\hotels.php(18): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\DZ8ci\\app\\Views\\hotels.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 8 APPPATH\Controllers\Home.php(17): view()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+CRITICAL - 2023-07-12 16:16:34 --> Undefined variable $imagePath
+in APPPATH\Views\hotels.php on line 29.
+ 1 APPPATH\Views\hotels.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\DZ8ci\\app\\Views\\hotels.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(17): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+ERROR - 2023-07-12 16:17:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1 in C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\OSPanel\domains\DZ8ci\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\DZ8ci\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\DZ8ci\app\Views\hotels.php(18): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\DZ8ci\system\View\View.php(224): include('C:\\OSPanel\\doma...')
+#5 C:\OSPanel\domains\DZ8ci\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\OSPanel\domains\DZ8ci\system\Common.php(1180): CodeIgniter\View\View->render()
+#7 C:\OSPanel\domains\DZ8ci\app\Controllers\Home.php(17): view()
+#8 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(932): App\Controllers\Home->hotels()
+#9 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#10 C:\OSPanel\domains\DZ8ci\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\OSPanel\domains\DZ8ci\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\OSPanel\domains\DZ8ci\system\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\doma...')
+#13 {main}
+CRITICAL - 2023-07-12 16:17:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Views\hotels.php(18): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\DZ8ci\\app\\Views\\hotels.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 8 APPPATH\Controllers\Home.php(17): view()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+CRITICAL - 2023-07-12 16:39:29 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\hotels.php on line 37.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 4 APPPATH\Controllers\Home.php(17): view()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+CRITICAL - 2023-07-12 18:49:49 --> Undefined variable $cities
+in APPPATH\Views\show_hotels.php on line 29.
+ 1 APPPATH\Views\show_hotels.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\OSPanel\\domains\\DZ8ci\\app\\Views\\show_hotels.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Home.php(13): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->show_hotels()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
+CRITICAL - 2023-07-12 18:52:50 --> Undefined variable $data
+in APPPATH\Controllers\Home.php on line 35.
+ 1 APPPATH\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->hotels()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\OSPanel\\domains\\DZ8ci\\public\\index.php')
