@@ -33,7 +33,7 @@
         
             <div class="card mb-3">
                 <div class="card-body">
-                    <img style="object-fit: cover; height: 25vh;" src="<? echo $imagePath; ?>" class="card-img-top" alt="<?php echo $hotel['HotelName']; ?>">
+                    <img style="object-fit: cover; height: 25vh;" src='<?= base_url("$imagePath") ?>' class="card-img-top" alt="<?php echo $hotel['HotelName']; ?>">
                     <h5 class="card-title"><?echo $hotel['HotelName']?></h5>
                     <p class="card-text"><?echo $hotel['City']?></p>
                     <p class="card-text"><?echo $hotel['Description']?></p>
